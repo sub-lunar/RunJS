@@ -11,10 +11,16 @@ require_once(__DIR__ . '/runjs.php');
 
 use SubLunar\RunJS;
 
+// just run a script
 RunJS\run('script.js');
 
+// run a script with three command line arguments and use the
+// output
 $output_lines = RunJS\run('script.js', ['arg1', 'arg2', 'arg3']);
 
+// run a script and use the output and the exit code; the third
+// TRUE argument changes the return value to
+// array($output_lines, $exit_code)
 list($output_lines, $exit_code) = RunJS\run('script.js', [], TRUE);
 ```
 
