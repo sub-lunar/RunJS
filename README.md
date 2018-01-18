@@ -23,7 +23,7 @@ The node binary is subject to the license found here:
 
 This project is published under a MIT license:
 
-```txt
+```text
 The MIT License (MIT)
 
 Copyright (c) 2018 Emanuel Tannert
