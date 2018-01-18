@@ -3,7 +3,7 @@
 Execute NodeJS scripts on any old server. Linux 64 bit servers only
 supported at this time, but binaries for other OSs may trivially
 be added, just download them from
-[https://nodejs.org/en/download/]. NodeJS 8.9.4 (current LTS
+<https://nodejs.org/en/download/>. NodeJS 8.9.4 (current LTS
 version at time of this writing) included for convenience.
 
 ```php
@@ -19,7 +19,7 @@ list($output_lines, $exit_code) = RunJS\run('script.js', [], TRUE);
 ```
 
 The node binary is subject to the license found here:
-[https://github.com/nodejs/node/blob/master/LICENSE]
+<https://github.com/nodejs/node/blob/master/LICENSE>
 
 This project is published under a MIT license:
 
